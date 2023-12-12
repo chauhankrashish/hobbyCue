@@ -689,6 +689,14 @@ body{
         text-align: center;
         margin: 25px;
     }
+    .or hr {
+        height: 2px;
+        width: 35%;
+    }
+    .or span {
+        width: 30%;
+        text-align: center;
+    }
     .p-4-1 .heading {
         justify-content: center;
     }
@@ -715,12 +723,21 @@ body{
     .your-hobby p {
         font-size: 22px;
     }
+    .or hr {
+        height: 2px;
+        width: 35%;
+    }
+    .or span {
+        width: 30%;
+        text-align: center;
+    }
 
 }
 
 @media (max-width:550px){
     .hero {
         padding: 50px 25px 0 25px;
+    }
     .hero-left h2 {
         font-size: 18px;
     }
@@ -728,20 +745,34 @@ body{
         font-size: 18px;
     }
     #header .logo{
-        width: 175px;
-        height: 32px;
+        width: 200px;
+        height: 40px;
     }
     .footer-details .icons {
         width: 100%;
     }
+    .or hr {
+        height: 2px;
+        width: 35%;
+    }
+    .or span {
+        width: 30%;
+        text-align: center;
+    }
 }
 
-@media (max-width:375px){
-    h2 {
-        font-size: 32px;
+@media (max-width:385px){
+    #header .logo{
+        width: 165px;
+        height: 32px;
     }
-    h1 {
-        font-size: 42px;
+    .or hr {
+        height: 2px;
+        width: 35%;
+    }
+    .or span {
+        width: 30%;
+        text-align: center;
     }
 }
 @media (max-width:320px){
